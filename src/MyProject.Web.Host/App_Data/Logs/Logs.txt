@@ -1,0 +1,508 @@
+DEBUG 2020-05-04 15:46:22,878 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-04 15:46:25,536 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-04 15:46:25,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:25,596 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-04 15:46:26,073 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 15:46:26,074 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 15:46:26,074 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 15:46:26,074 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 15:46:27,157 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 15:46:29,969 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-04 15:46:30,103 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-04 15:46:30,131 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-04 15:46:30,144 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-05-04 15:46:30,161 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-04 15:46:30,689 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 15:46:31,015 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 15:46:31,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-04 15:46:31,167 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-04 15:46:31,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-05-04 15:46:31,182 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-05-04 15:46:31,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-04 15:46:31,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-04 15:46:31,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-05-04 15:46:31,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-04 15:46:31,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-04 16:05:37,433 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-04 16:05:37,548 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-04 16:05:37,570 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,572 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,573 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,574 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:37,578 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-04 16:05:37,675 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:05:37,675 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:05:37,675 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:05:37,675 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:05:38,445 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:05:40,573 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-04 16:05:40,663 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-04 16:05:40,690 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-04 16:05:40,701 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-05-04 16:05:40,712 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-04 16:05:41,196 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 16:05:41,524 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 16:05:41,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-04 16:05:41,652 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-04 16:05:41,666 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-05-04 16:05:41,668 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-05-04 16:05:41,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-04 16:05:41,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-04 16:05:41,670 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-05-04 16:05:41,670 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-04 16:05:41,670 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+DEBUG 2020-05-04 16:10:17,089 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-04 16:10:17,234 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-04 16:10:17,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,276 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,277 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,278 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:17,285 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-04 16:10:17,389 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:10:17,389 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:10:17,389 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:10:17,389 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:10:18,297 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:10:20,607 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-04 16:10:20,695 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-04 16:10:20,721 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-04 16:10:20,733 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-05-04 16:10:20,747 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-04 16:10:21,233 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 16:10:21,532 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 16:10:21,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-04 16:10:21,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-04 16:10:21,669 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-05-04 16:10:21,671 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-05-04 16:10:21,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-04 16:10:21,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-04 16:10:21,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-05-04 16:10:21,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-04 16:10:21,673 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+INFO  2020-05-04 16:10:27,506 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-04 16:10:28,515 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Omen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-04 16:10:28,723 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-04 16:10:29,190 [16   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-05-04 16:10:37,746 [16   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyProject.Web.Host.Controllers.HomeController (MyProject.Web.Host).
+INFO  2020-05-04 16:10:40,442 [16   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) - Validation state: Valid
+INFO  2020-05-04 16:10:40,452 [16   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.4504ms.
+INFO  2020-05-04 16:10:41,100 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-04 16:10:41,118 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) in 3359.1874ms
+INFO  2020-05-04 16:10:41,124 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-05-04 16:10:41,153 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-05-04 16:10:41,160 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12439.4274ms 302 
+INFO  2020-05-04 16:10:41,243 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89.7765ms 301 
+INFO  2020-05-04 16:10:41,247 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-04 16:10:41,548 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 299.8026ms 200 text/html;charset=utf-8
+INFO  2020-05-04 16:10:41,576 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-05-04 16:10:41,579 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-05-04 16:10:41,582 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-04 16:10:41,585 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-05-04 16:10:41,589 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-04 16:10:41,628 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\MyProject\5.4.0\aspnet-core\src\MyProject.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-05-04 16:10:41,628 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\MyProject\5.4.0\aspnet-core\src\MyProject.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-05-04 16:10:41,631 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.9644ms 200 application/javascript
+INFO  2020-05-04 16:10:41,634 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.9351ms 200 application/javascript
+INFO  2020-05-04 16:10:41,649 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-05-04 16:10:41,652 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-05-04 16:10:41,657 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-05-04 16:10:41,664 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.2649ms 200 text/css
+INFO  2020-05-04 16:10:41,667 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.2269ms 200 application/javascript
+INFO  2020-05-04 16:10:41,669 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 81.7791ms 200 application/javascript
+INFO  2020-05-04 16:10:42,345 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-04 16:10:42,351 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 16:10:42,367 [18   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyProject.Web.Host.Controllers.AntiForgeryController (MyProject.Web.Host).
+INFO  2020-05-04 16:10:42,408 [18   ] c.Infrastructure.ControllerActionInvoker - Executing action method MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host) - Validation state: Valid
+INFO  2020-05-04 16:10:42,412 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-04 16:10:42,434 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action method MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 21.4832ms.
+INFO  2020-05-04 16:10:42,469 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 16:10:42,482 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-05-04 16:10:42,487 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-05-04 16:10:42,491 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.4881ms 200 image/png
+INFO  2020-05-04 16:10:42,508 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host) in 138.1666ms
+INFO  2020-05-04 16:10:42,511 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 16:10:42,514 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 170.8859ms 200 application/json; charset=utf-8
+INFO  2020-05-04 16:10:42,783 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 372.395ms 200 application/json;charset=utf-8
+DEBUG 2020-05-04 16:11:41,588 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-04 16:11:41,616 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-04 16:11:41,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:41,645 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-04 16:11:41,702 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:11:41,702 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:11:41,702 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:11:41,702 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 16:11:42,032 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 16:11:42,464 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-04 16:11:42,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-04 16:11:42,515 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-04 16:11:42,521 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-05-04 16:11:42,527 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-04 16:11:42,586 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 16:11:42,615 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 16:11:42,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-04 16:11:42,672 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-04 16:11:42,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-05-04 16:11:42,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-05-04 16:11:42,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-04 16:11:42,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-04 16:11:42,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-05-04 16:11:42,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-04 16:11:42,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+INFO  2020-05-04 16:11:45,588 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-04 16:11:46,061 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Omen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-04 16:11:46,181 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-04 16:11:46,319 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-05-04 16:11:48,874 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyProject.Web.Host.Controllers.HomeController (MyProject.Web.Host).
+INFO  2020-05-04 16:11:50,193 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-04 16:11:50,206 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) in 1322.1579ms
+INFO  2020-05-04 16:11:50,208 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-05-04 16:11:50,237 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4057.8691ms 302 
+INFO  2020-05-04 16:11:50,238 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-04 16:11:50,559 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 320.9614ms 200 text/html;charset=utf-8
+INFO  2020-05-04 16:11:51,243 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-04 16:11:51,248 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 16:11:51,259 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyProject.Web.Host.Controllers.AntiForgeryController (MyProject.Web.Host).
+INFO  2020-05-04 16:11:51,292 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-04 16:11:51,294 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 16:11:51,313 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host) in 53.8256ms
+INFO  2020-05-04 16:11:51,314 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 16:11:51,314 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.6886ms 200 application/json; charset=utf-8
+INFO  2020-05-04 16:11:51,621 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 329.4413ms 200 application/json;charset=utf-8
+INFO  2020-05-04 17:40:31,137 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 17:40:31,140 [118  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:31,141 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2158ms 204 
+INFO  2020-05-04 17:40:31,142 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2020-05-04 17:40:31,143 [118  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:31,180 [118  ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2020-05-04 17:40:31,182 [118  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 17:40:31,189 [118  ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2020-05-04 17:40:33,791 [118  ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:40:33,816 [118  ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 2627.0117ms
+INFO  2020-05-04 17:40:33,816 [118  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 17:40:33,816 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2673.6306ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:40:33,825 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-05-04 17:40:33,825 [118  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:33,825 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.4395ms 204 
+INFO  2020-05-04 17:40:33,827 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-05-04 17:40:33,827 [118  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:33,828 [118  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-05-04 17:40:33,832 [118  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyProject.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller MyProject.Sessions.SessionAppService (MyProject.Application).
+INFO  2020-05-04 17:40:33,958 [118  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:40:33,962 [118  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 129.9014ms
+INFO  2020-05-04 17:40:33,962 [118  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-05-04 17:40:33,962 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 134.9709ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:40:51,570 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2020-05-04 17:40:51,570 [117  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:51,571 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2469ms 204 
+INFO  2020-05-04 17:40:51,573 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json-patch+json 77
+INFO  2020-05-04 17:40:51,573 [117  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:51,574 [117  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-05-04 17:40:51,585 [117  ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[MyProject.Models.TokenAuth.AuthenticateResultModel] Authenticate(MyProject.Models.TokenAuth.AuthenticateModel) on controller MyProject.Controllers.TokenAuthController (MyProject.Web.Core).
+INFO  2020-05-04 17:40:52,003 [119  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:40:52,005 [119  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core) in 420.4023ms
+INFO  2020-05-04 17:40:52,005 [119  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Controllers.TokenAuthController.Authenticate (MyProject.Web.Core)'
+INFO  2020-05-04 17:40:52,005 [119  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 432.9539ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:40:53,292 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 17:40:53,293 [121  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:53,294 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3005ms 204 
+INFO  2020-05-04 17:40:53,295 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2020-05-04 17:40:53,297 [121  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:53,321 [121  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:40:53,577 [119  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 17:40:53,580 [119  ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2020-05-04 17:40:53,674 [117  ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:40:53,676 [117  ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 95.4497ms
+INFO  2020-05-04 17:40:53,676 [117  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 17:40:53,676 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 380.6347ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:40:53,685 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-05-04 17:40:53,685 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:53,685 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.4471ms 204 
+INFO  2020-05-04 17:40:53,687 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-05-04 17:40:53,687 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:53,689 [116  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:40:53,689 [116  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-05-04 17:40:53,691 [116  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyProject.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller MyProject.Sessions.SessionAppService (MyProject.Application).
+INFO  2020-05-04 17:40:53,711 [119  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:40:53,712 [119  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 21.2426ms
+INFO  2020-05-04 17:40:53,712 [119  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-05-04 17:40:53,712 [119  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.5031ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:40:54,360 [119  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZD5IOaSvot%2F%2BzsyhI%2FbXgXHnspS%2B2KTY0cYsGXnTlL9anfZzNk5ssXSZ3sZt5Pvrx7BIPLHmou7%2FfRE%2BoPl%2B%2Bur0wLivfoqggAdSbgcH4%2BRp6DHfp%2F7RWyJAjXI%2BvCGUSjQ%2BdpfND2KcwNefCzYqBsvn0s27k7AEaye7vmmCUcPsa5NYOw9xc45YRMSewmMTHOxDZWIOSZGvN3E4gn6FmsMTEF3wBZUDdTgrEp1h7g7f0qQxfppgynbTFN09iwQj1Gfw4mreHZ6U%2FxkEpLaVFmTyd%2BgYU49IF05GYY3c69fhNWAwDBbL3LGEOMJE7IS0dGxQa%2B1mRvMEzyuleGV7wi%2BV7%2FoSV%2BDljfOO3cef%2FJJYwX%2BxBjjKKYXNRoLR%2ByyVvQYalRf%2FJFgTcXmRgF4tQC7IMV0LUe%2Bhv6rqJh3W3mTejA3Cy%2FmxuB%2BPYAcVSww%2FSNhom4cyO1tl%2BTjDYy9ruulIjEqOjMfK%2FORTQAmHb0vzPB0pdcFaIpHs1WGg4jLXQ%3D  
+INFO  2020-05-04 17:40:54,361 [119  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:54,362 [119  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1089ms 204 
+INFO  2020-05-04 17:40:54,364 [119  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZD5IOaSvot%2F%2BzsyhI%2FbXgXHnspS%2B2KTY0cYsGXnTlL9anfZzNk5ssXSZ3sZt5Pvrx7BIPLHmou7%2FfRE%2BoPl%2B%2Bur0wLivfoqggAdSbgcH4%2BRp6DHfp%2F7RWyJAjXI%2BvCGUSjQ%2BdpfND2KcwNefCzYqBsvn0s27k7AEaye7vmmCUcPsa5NYOw9xc45YRMSewmMTHOxDZWIOSZGvN3E4gn6FmsMTEF3wBZUDdTgrEp1h7g7f0qQxfppgynbTFN09iwQj1Gfw4mreHZ6U%2FxkEpLaVFmTyd%2BgYU49IF05GYY3c69fhNWAwDBbL3LGEOMJE7IS0dGxQa%2B1mRvMEzyuleGV7wi%2BV7%2FoSV%2BDljfOO3cef%2FJJYwX%2BxBjjKKYXNRoLR%2ByyVvQYalRf%2FJFgTcXmRgF4tQC7IMV0LUe%2Bhv6rqJh3W3mTejA3Cy%2FmxuB%2BPYAcVSww%2FSNhom4cyO1tl%2BTjDYy9ruulIjEqOjMfK%2FORTQAmHb0vzPB0pdcFaIpHs1WGg4jLXQ%3D text/plain;charset=UTF-8 0
+INFO  2020-05-04 17:40:54,364 [119  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:54,366 [119  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:40:54,367 [119  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-05-04 17:40:54,374 [119  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-05-04 17:40:54,374 [119  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.2435ms 200 application/json
+INFO  2020-05-04 17:40:54,410 [122  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZD5IOaSvot%2F%2BzsyhI%2FbXgXHnspS%2B2KTY0cYsGXnTlL9anfZzNk5ssXSZ3sZt5Pvrx7BIPLHmou7%2FfRE%2BoPl%2B%2Bur0wLivfoqggAdSbgcH4%2BRp6DHfp%2F7RWyJAjXI%2BvCGUSjQ%2BdpfND2KcwNefCzYqBsvn0s27k7AEaye7vmmCUcPsa5NYOw9xc45YRMSewmMTHOxDZWIOSZGvN3E4gn6FmsMTEF3wBZUDdTgrEp1h7g7f0qQxfppgynbTFN09iwQj1Gfw4mreHZ6U%2FxkEpLaVFmTyd%2BgYU49IF05GYY3c69fhNWAwDBbL3LGEOMJE7IS0dGxQa%2B1mRvMEzyuleGV7wi%2BV7%2FoSV%2BDljfOO3cef%2FJJYwX%2BxBjjKKYXNRoLR%2ByyVvQYalRf%2FJFgTcXmRgF4tQC7IMV0LUe%2Bhv6rqJh3W3mTejA3Cy%2FmxuB%2BPYAcVSww%2FSNhom4cyO1tl%2BTjDYy9ruulIjEqOjMfK%2FORTQAmHb0vzPB0pdcFaIpHs1WGg4jLXQ%3D&id=epk33tytfjZjnkYOrS-VZw  
+INFO  2020-05-04 17:40:54,410 [122  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:40:54,411 [122  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:40:54,412 [122  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-05-04 17:40:54,445 [119  ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"epk33tytfjZjnkYOrS-VZw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"1441-09-11T17:40:54.4415381+03:00","Properties":{}}
+DEBUG 2020-05-04 17:40:54,450 [119  ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: epk33tytfjZjnkYOrS-VZw
+INFO  2020-05-04 17:41:11,838 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2020-05-04 17:41:11,839 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:11,839 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7358ms 204 
+INFO  2020-05-04 17:41:11,841 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2020-05-04 17:41:11,841 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:11,843 [116  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:11,844 [116  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAllAsync (MyProject.Application)'
+INFO  2020-05-04 17:41:11,850 [116  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyProject.Users.Dto.UserDto]] GetAllAsync(MyProject.Users.Dto.PagedUserResultRequestDto) on controller MyProject.Users.UserAppService (MyProject.Application).
+INFO  2020-05-04 17:41:12,040 [121  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:12,045 [121  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAllAsync (MyProject.Application) in 194.4017ms
+INFO  2020-05-04 17:41:12,045 [121  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAllAsync (MyProject.Application)'
+INFO  2020-05-04 17:41:12,045 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 204.2272ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:41:17,338 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/Get?Id=1  
+INFO  2020-05-04 17:41:17,338 [121  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:17,338 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6736ms 204 
+INFO  2020-05-04 17:41:17,340 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get?Id=1  
+INFO  2020-05-04 17:41:17,341 [121  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:17,344 [121  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:17,344 [121  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAsync (MyProject.Application)'
+INFO  2020-05-04 17:41:17,350 [121  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyProject.Users.Dto.UserDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int64]) on controller MyProject.Users.UserAppService (MyProject.Application).
+INFO  2020-05-04 17:41:17,388 [117  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:17,389 [117  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAsync (MyProject.Application) in 38.3169ms
+INFO  2020-05-04 17:41:17,389 [117  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAsync (MyProject.Application)'
+INFO  2020-05-04 17:41:17,389 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 48.891ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:41:17,406 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-05-04 17:41:17,406 [117  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:17,407 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.4319ms 204 
+INFO  2020-05-04 17:41:17,408 [117  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2020-05-04 17:41:17,409 [117  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:17,409 [117  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:17,410 [117  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-05-04 17:41:17,415 [117  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.ListResultDto`1[MyProject.Roles.Dto.RoleDto]] GetRoles() on controller MyProject.Users.UserAppService (MyProject.Application).
+INFO  2020-05-04 17:41:17,439 [120  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:17,441 [120  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetRoles (MyProject.Application) in 26.2807ms
+INFO  2020-05-04 17:41:17,441 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetRoles (MyProject.Application)'
+INFO  2020-05-04 17:41:17,441 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.1506ms 200 application/json; charset=utf-8
+DEBUG 2020-05-04 17:41:22,479 [121  ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: epk33tytfjZjnkYOrS-VZw
+INFO  2020-05-04 17:41:22,484 [121  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-05-04 17:41:22,484 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28074.4868ms 101 
+INFO  2020-05-04 17:41:23,375 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 17:41:23,376 [118  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:23,376 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8071ms 204 
+INFO  2020-05-04 17:41:23,378 [118  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll application/json 
+INFO  2020-05-04 17:41:23,378 [118  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:23,379 [118  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:23,380 [118  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 17:41:23,383 [118  ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2020-05-04 17:41:23,400 [121  ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:23,401 [121  ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 17.5411ms
+INFO  2020-05-04 17:41:23,401 [121  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 17:41:23,401 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.425ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:41:23,535 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-05-04 17:41:23,536 [120  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:23,536 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.427ms 204 
+INFO  2020-05-04 17:41:23,538 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2020-05-04 17:41:23,538 [120  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:23,539 [120  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:23,539 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-05-04 17:41:23,541 [120  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing controller action with signature System.Threading.Tasks.Task`1[MyProject.Sessions.Dto.GetCurrentLoginInformationsOutput] GetCurrentLoginInformations() on controller MyProject.Sessions.SessionAppService (MyProject.Application).
+INFO  2020-05-04 17:41:23,545 [120  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:23,546 [120  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application) in 4.5172ms
+INFO  2020-05-04 17:41:23,546 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Sessions.SessionAppService.GetCurrentLoginInformations (MyProject.Application)'
+INFO  2020-05-04 17:41:23,546 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.1204ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:41:24,033 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2020-05-04 17:41:24,034 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:24,034 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6655ms 204 
+INFO  2020-05-04 17:41:24,036 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?Keyword=&SkipCount=0&MaxResultCount=10  
+INFO  2020-05-04 17:41:24,036 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:24,037 [116  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:24,037 [116  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAllAsync (MyProject.Application)'
+INFO  2020-05-04 17:41:24,040 [116  ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyProject.Users.Dto.UserDto]] GetAllAsync(MyProject.Users.Dto.PagedUserResultRequestDto) on controller MyProject.Users.UserAppService (MyProject.Application).
+INFO  2020-05-04 17:41:24,059 [116  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:24,060 [116  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAllAsync (MyProject.Application) in 20.0144ms
+INFO  2020-05-04 17:41:24,060 [116  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAllAsync (MyProject.Application)'
+INFO  2020-05-04 17:41:24,060 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 24.337ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:41:24,141 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZD5IOaSvot%2F%2BzsyhI%2FbXgXHnspS%2B2KTY0cYsGXnTlL9anfZzNk5ssXSZ3sZt5Pvrx7BIPLHmou7%2FfRE%2BoPl%2B%2Bur0wLivfoqggAdSbgcH4%2BRp6DHfp%2F7RWyJAjXI%2BvCGUSjQ%2BdpfND2KcwNefCzYqBsvn0s27k7AEaye7vmmCUcPsa5NYOw9xc45YRMSewmMTHOxDZWIOSZGvN3E4gn6FmsMTEF3wBZUDdTgrEp1h7g7f0qQxfppgynbTFN09iwQj1Gfw4mreHZ6U%2FxkEpLaVFmTyd%2BgYU49IF05GYY3c69fhNWAwDBbL3LGEOMJE7IS0dGxQa%2B1mRvMEzyuleGV7wi%2BV7%2FoSV%2BDljfOO3cef%2FJJYwX%2BxBjjKKYXNRoLR%2ByyVvQYalRf%2FJFgTcXmRgF4tQC7IMV0LUe%2Bhv6rqJh3W3mTejA3Cy%2FmxuB%2BPYAcVSww%2FSNhom4cyO1tl%2BTjDYy9ruulIjEqOjMfK%2FORTQAmHb0vzPB0pdcFaIpHs1WGg4jLXQ%3D  
+INFO  2020-05-04 17:41:24,142 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:24,142 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6762ms 204 
+INFO  2020-05-04 17:41:24,144 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/signalr/negotiate?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZD5IOaSvot%2F%2BzsyhI%2FbXgXHnspS%2B2KTY0cYsGXnTlL9anfZzNk5ssXSZ3sZt5Pvrx7BIPLHmou7%2FfRE%2BoPl%2B%2Bur0wLivfoqggAdSbgcH4%2BRp6DHfp%2F7RWyJAjXI%2BvCGUSjQ%2BdpfND2KcwNefCzYqBsvn0s27k7AEaye7vmmCUcPsa5NYOw9xc45YRMSewmMTHOxDZWIOSZGvN3E4gn6FmsMTEF3wBZUDdTgrEp1h7g7f0qQxfppgynbTFN09iwQj1Gfw4mreHZ6U%2FxkEpLaVFmTyd%2BgYU49IF05GYY3c69fhNWAwDBbL3LGEOMJE7IS0dGxQa%2B1mRvMEzyuleGV7wi%2BV7%2FoSV%2BDljfOO3cef%2FJJYwX%2BxBjjKKYXNRoLR%2ByyVvQYalRf%2FJFgTcXmRgF4tQC7IMV0LUe%2Bhv6rqJh3W3mTejA3Cy%2FmxuB%2BPYAcVSww%2FSNhom4cyO1tl%2BTjDYy9ruulIjEqOjMfK%2FORTQAmHb0vzPB0pdcFaIpHs1WGg4jLXQ%3D text/plain;charset=UTF-8 0
+INFO  2020-05-04 17:41:24,144 [120  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:24,146 [120  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:24,146 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2020-05-04 17:41:24,147 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2020-05-04 17:41:24,147 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3659ms 200 application/json
+INFO  2020-05-04 17:41:24,161 [116  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/signalr?enc_auth_token=wNYmO41%2F48SHNstaLVXxHCCre29BZQl1NhC6NM3R3rzpXtPQxVzH6jEzA%2FQhXFN5tu6Fk7pO53uppm1mVXMZgxbyRVz26dnepi%2FFyB6axBY%2B6gq1GL%2BuRQgoiFUCjRN2p8w6LevViwKlHyWZZJZO1DGVSjAi1m2U%2Bog9pkHw9%2FQR4Nl%2FDPnoP9JYDMpZ1zxx09u6s0GZ9%2FQ5Sjk%2BL0UfcSCbl38X8he5w9UIn%2FHvxh7ysM1CiPLsoOwtbiieSRVmrmt0JjnipAn4%2FK283F8GrGwzwgehWsqefmUnM0ckMwP9ZAdwQxWDhxv0IqNw4tDhwUYs%2F1SYdYozdNzgByhgNOBPzQDObNLlWc4vV5VMOiZD5IOaSvot%2F%2BzsyhI%2FbXgXHnspS%2B2KTY0cYsGXnTlL9anfZzNk5ssXSZ3sZt5Pvrx7BIPLHmou7%2FfRE%2BoPl%2B%2Bur0wLivfoqggAdSbgcH4%2BRp6DHfp%2F7RWyJAjXI%2BvCGUSjQ%2BdpfND2KcwNefCzYqBsvn0s27k7AEaye7vmmCUcPsa5NYOw9xc45YRMSewmMTHOxDZWIOSZGvN3E4gn6FmsMTEF3wBZUDdTgrEp1h7g7f0qQxfppgynbTFN09iwQj1Gfw4mreHZ6U%2FxkEpLaVFmTyd%2BgYU49IF05GYY3c69fhNWAwDBbL3LGEOMJE7IS0dGxQa%2B1mRvMEzyuleGV7wi%2BV7%2FoSV%2BDljfOO3cef%2FJJYwX%2BxBjjKKYXNRoLR%2ByyVvQYalRf%2FJFgTcXmRgF4tQC7IMV0LUe%2Bhv6rqJh3W3mTejA3Cy%2FmxuB%2BPYAcVSww%2FSNhom4cyO1tl%2BTjDYy9ruulIjEqOjMfK%2FORTQAmHb0vzPB0pdcFaIpHs1WGg4jLXQ%3D&id=0qi64AlCmDBs-twKs9sHmw  
+INFO  2020-05-04 17:41:24,161 [116  ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2020-05-04 17:41:24,163 [116  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:24,163 [116  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2020-05-04 17:41:24,191 [116  ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"0qi64AlCmDBs-twKs9sHmw","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"1441-09-11T17:41:24.1913458+03:00","Properties":{}}
+DEBUG 2020-05-04 17:41:24,193 [118  ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 0qi64AlCmDBs-twKs9sHmw
+INFO  2020-05-04 17:41:55,982 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-04 17:41:55,983 [120  ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:41:55,984 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 17:41:55,986 [120  ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyProject.Web.Host.Controllers.AntiForgeryController (MyProject.Web.Host).
+INFO  2020-05-04 17:41:55,999 [120  ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:41:56,000 [120  ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host) in 13.4716ms
+INFO  2020-05-04 17:41:56,000 [120  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 17:41:56,000 [120  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 18.2812ms 200 application/json; charset=utf-8
+DEBUG 2020-05-04 17:42:13,237 [118  ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 0qi64AlCmDBs-twKs9sHmw
+INFO  2020-05-04 17:42:13,238 [121  ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2020-05-04 17:42:13,239 [121  ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49077.3501ms 101 
+DEBUG 2020-05-04 17:42:13,239 [126  ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-05-04 17:42:13,245 [126  ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 17:42:13,245 [126  ] , Culture=neutral, PublicKeyToken=null]] - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 17:42:13,248 [126  ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 17:42:13,248 [126  ] , Culture=neutral, PublicKeyToken=null]] - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 17:42:13,248 [126  ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-05-04 17:52:48,859 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-05-04 17:52:48,876 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-05-04 17:52:48,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.Web.Host.Startup.MyProjectWebHostModule, MyProject.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectWebCoreModule, MyProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectApplicationModule, MyProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.MyProjectCoreModule, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyProject.EntityFrameworkCore.MyProjectEntityFrameworkModule, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:48,895 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-05-04 17:52:48,933 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 17:52:48,933 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 17:52:48,933 [1    ] o.Configuration.LanguageManagementConfig - Converted MyProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 17:52:48,933 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-05-04 17:52:49,159 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyProject.EntityFrameworkCore.MyProjectDbContext, MyProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-05-04 17:52:49,466 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-05-04 17:52:49,495 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-05-04 17:52:49,503 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-05-04 17:52:49,507 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyProject
+DEBUG 2020-05-04 17:52:49,510 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-05-04 17:52:49,548 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-05-04 17:52:49,567 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[MyProject.MultiTenancy.Tenant, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyProject.Authorization.Users.User, MyProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-05-04 17:52:49,602 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-05-04 17:52:49,602 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-05-04 17:52:49,606 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.CreateUserDto
+DEBUG 2020-05-04 17:52:49,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Users.Dto.UserDto
+DEBUG 2020-05-04 17:52:49,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-05-04 17:52:49,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-05-04 17:52:49,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.Roles.Dto.PermissionDto
+DEBUG 2020-05-04 17:52:49,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-05-04 17:52:49,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyProject.MultiTenancy.Dto.TenantDto
+INFO  2020-05-04 17:52:51,173 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-05-04 17:52:51,300 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Omen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-05-04 17:52:51,332 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-05-04 17:52:51,377 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-05-04 17:52:52,116 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MyProject.Web.Host.Controllers.HomeController (MyProject.Web.Host).
+INFO  2020-05-04 17:52:52,525 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-05-04 17:52:52,528 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host) in 409.6333ms
+INFO  2020-05-04 17:52:52,528 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.HomeController.Index (MyProject.Web.Host)'
+INFO  2020-05-04 17:52:52,538 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1206.079ms 302 
+INFO  2020-05-04 17:52:52,539 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-05-04 17:52:52,645 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 105.9139ms 200 text/html;charset=utf-8
+INFO  2020-05-04 17:52:52,661 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-05-04 17:52:52,661 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-05-04 17:52:52,665 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-05-04 17:52:52,665 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-05-04 17:52:52,666 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.0019ms 304 application/javascript
+INFO  2020-05-04 17:52:52,666 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.9715ms 304 application/javascript
+INFO  2020-05-04 17:52:53,021 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-05-04 17:52:53,050 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-05-04 17:52:53,082 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:52:53,082 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 17:52:53,136 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 17:52:53,140 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller MyProject.Web.Host.Controllers.AntiForgeryController (MyProject.Web.Host).
+INFO  2020-05-04 17:52:53,151 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 17:52:53,161 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host) in 20.2698ms
+INFO  2020-05-04 17:52:53,161 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Web.Host.Controllers.AntiForgeryController.SetCookie (MyProject.Web.Host)'
+INFO  2020-05-04 17:52:53,161 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 140.5369ms 200 application/json; charset=utf-8
+INFO  2020-05-04 17:52:53,235 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.9564ms 200 application/json;charset=utf-8
+INFO  2020-05-04 17:53:14,157 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 17:53:14,160 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-04 17:53:14,160 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://angular.com does not have permission to access the resource.
+INFO  2020-05-04 17:53:14,161 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.9213ms 204 
+INFO  2020-05-04 17:59:45,123 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 17:59:45,124 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-04 17:59:45,124 [28   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://angular.com does not have permission to access the resource.
+INFO  2020-05-04 17:59:45,125 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1447ms 204 
+INFO  2020-05-04 17:59:52,391 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 17:59:52,391 [28   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-04 17:59:52,392 [28   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://angular.com does not have permission to access the resource.
+INFO  2020-05-04 17:59:52,392 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.6479ms 204 
+INFO  2020-05-04 18:06:07,877 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 18:06:07,879 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 18:06:07,886 [40   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] GetAll() on controller Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController (Abp.AspNetCore).
+INFO  2020-05-04 18:06:08,136 [42   ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 18:06:08,163 [42   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 276.8803ms
+INFO  2020-05-04 18:06:08,164 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)'
+INFO  2020-05-04 18:06:08,164 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 286.9835ms 200 application/json; charset=utf-8
+INFO  2020-05-04 18:06:08,731 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/favicon.ico  
+INFO  2020-05-04 18:06:08,733 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2465ms 404 
+INFO  2020-05-04 18:06:54,624 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 18:06:54,625 [45   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-04 18:06:54,625 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://angular.com does not have permission to access the resource.
+INFO  2020-05-04 18:06:54,626 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5991ms 204 
+INFO  2020-05-04 18:07:26,144 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2020-05-04 18:07:26,145 [44   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-04 18:07:26,145 [44   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://angular.com does not have permission to access the resource.
+INFO  2020-05-04 18:07:26,145 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9904ms 204 
+INFO  2020-05-04 18:09:13,264 [52   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll  
+INFO  2020-05-04 18:09:13,266 [52   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-05-04 18:09:13,267 [52   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyProject.Users.UserAppService.GetAllAsync (MyProject.Application)'
+INFO  2020-05-04 18:09:13,287 [52   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[MyProject.Users.Dto.UserDto]] GetAllAsync(MyProject.Users.Dto.PagedUserResultRequestDto) on controller MyProject.Users.UserAppService (MyProject.Application).
+INFO  2020-05-04 18:09:13,769 [53   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-05-04 18:09:13,776 [53   ] c.Infrastructure.ControllerActionInvoker - Executed action MyProject.Users.UserAppService.GetAllAsync (MyProject.Application) in 489.008ms
+INFO  2020-05-04 18:09:13,776 [53   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyProject.Users.UserAppService.GetAllAsync (MyProject.Application)'
+INFO  2020-05-04 18:09:13,777 [53   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 512.5603ms 200 application/json; charset=utf-8
+INFO  2020-05-04 18:20:07,991 [56   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  0
+INFO  2020-05-04 18:20:07,992 [56   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-05-04 18:20:07,992 [56   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://angular.com does not have permission to access the resource.
+INFO  2020-05-04 18:20:07,993 [56   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3932ms 204 
